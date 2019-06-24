@@ -99,6 +99,7 @@ abbr {
 }
 
 @media screen and (max-width: 600px){
+
   .nav-right form div{
     padding: 1vh;
     display: flex;
