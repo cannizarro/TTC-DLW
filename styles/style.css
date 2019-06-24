@@ -19,7 +19,10 @@ abbr {
 .nav-right{
     display: flex;
 }
-
+#grad2 {
+    height: 100px;
+   background: linear-gradient(brown, cyan);
+}
 .form-control {
   background-color: transparent !important;
   border-bottom: 1px solid whitesmoke;
