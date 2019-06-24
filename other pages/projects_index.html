@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Projects</title>
+  <meta name="author" content="Samridhi Murarka" />
+  <meta name="description" content="Projects collection" />
+  <!-- FONTS-------------------------- -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/fontawesome.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!-- minimised libraries----------------- -->
+  <link rel="stylesheet" href="./css/materialize.min.css" />
+  <!-- customised css--------------------------- -->
+  <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <!-- NAVIGATION BAR -->
+    <nav id="navbar">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo "><img src="dlw.png" alt="Logo" class="nav-logo" /></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="underline right hide-on-med-and-down">
+          <li><a href="#landing">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#landing">HOME</a></li>
+      <li><a href="#about">ABOUT</a></li>
+    </ul>
+
+    <div>&nbsp;</div>
+
+    <div>&nbsp;</div>
+    <main>
+      <div class="row">
+        <!--  -->
+        <section class="section">
+          <h4>
+            Computer Science Projects
+          </h4>
+          <div>&nbsp;</div>
+          <div class="grid">
+            <div class="mycard mycard--medium">
+              <div class="mycard__details">
+                ABC <br>IOT Based<br>
+              </div>
+            </div>
+            <div class="mycard mycard--medium">
+              <div class="mycard__details">
+                XYZ <br>AI Based<br>
+              </div>
+            </div>
+            <div class="mycard mycard--medium">
+              <div class="mycard__details">
+                PQR <br>ML Based<br>
+              </div>
+            </div>
+            <div class="mycard mycard--medium">
+              <div class="mycard__details">
+                DEF <br>Web Development<br>
+              </div>
+            </div>
+            <div class="mycard mycard--medium">
+              <div class="mycard__details">
+                MNO <br>App Development<br>
+              </div>
+            </div>
+
+          </div>
+      </div>
+      </section>
+
+      <!--  -->
+  </div>
+  </main>
+  </div>
+
+  <script src="./js/jquery.js"></script>
+  <script src="./js/materialize.min.js"></script>
+  <script>
+    // NAVBAR
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+    });
+  </script>
+
+</body>
+
+</html>
