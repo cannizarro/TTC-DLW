@@ -193,9 +193,27 @@
                   <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search" id="search" name="q">
               </div>
             </form>
-
-            <a href="#" class="whitesmoke-color"><i class="fas fa-sign-in-alt"></i>Login</a>
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;color: whitesmoke;"><b>Login</b></button>
+            <div id="id01" class="modal">
+              <form class="modal-content animate" action="/action_page.php" style="width:50%">
+                <p style=" padding-top: 35px; text-align: center; color: whitesmoke;font-size: 30px"><b><b>Login Form</b></b></p>
+                <div class="imgcontainer">
+                  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                </div style="padding-bottom:60px;">
+                      <div class="container">
+                        <h4 for="uname" style="padding-top: 18px;text-align: left;color: whitesmoke;"><b>Email id</b></h3>
+                        <input type="text" placeholder="Email id" name="uname" required>
+                        <h4 for="uname" style="padding-top: 18px; text-align: left;color: whitesmoke;"><b>Password</b></h3>
+                        <input type="password" placeholder="Password" name="psw" required>
             </div>
+            <div style="padding-top: 9px;padding-bottom: 60px;">
+              <button type="submit" style=""><b>Login</b></button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn"><b>Cancel</b></button>
+            </div>
+          </div>
+    </form>
+  </div>
+</div>
         </nav>
         <!--End Navabar-->
         </header>
