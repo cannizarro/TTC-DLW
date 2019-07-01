@@ -10,6 +10,7 @@ class Student(models.Model):
     school = models.CharField(max_length=100, help_text="Enter the name of your school")
     email = models.EmailField(help_text="Enter your email")
     github = models.URLField(help_text="Enter your github link", null=True, blank=True)
+    disp_pic = models.ImageField(upload_to='static/users/', null=True)
 
     #One student can belong to only one department
     department = models.ForeignKey('Department', on_delete=models.SET_NULL, null=True)
@@ -34,6 +35,7 @@ class Project(models.Model):
     #Model representing individual project
     name = models.CharField(max_length=100, help_text="Enter project name")
     start_date = models.DateField('Date Started', null=True, blank=True)
+    disp_pic = models.ImageField(upload_to='static/users/', null=True)
 
     #Tuple for project status
     PROJECT_STATUS=(
