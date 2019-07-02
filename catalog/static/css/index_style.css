@@ -6,13 +6,11 @@ body {
   }
   
   body {
-    background-image: url("../assets/Stealth.jpeg");
+    background-image: url("../assets/train.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    height: 100%;
-  
   }
 
   .overlay{
